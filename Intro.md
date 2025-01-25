@@ -137,4 +137,13 @@ export default function handler(req, res) {
 **This can be achieved in two ways: -**
 1. In the pages folder, we can create multiple files like blog.js, contact.js, etc. and in the base router localhost:3000, just add /filename and the router will work.
 
-2. In this method, we can create folders like blog, contact, etc. and a file named index.js(no any other name) in these folders. In the base router localhost:3000, just add /filename and the router will work.
+2. In this method, we can create folders like blog, contact, etc. and a file named index.js(no any other name) in these folders. In the base router localhost:3000, just add /foldername and the router will work.
+
+
+
+## Nested File-based routing
+
+**This can be achieved by: -**
+- Creating a folder in pages folder, and creating multiple js files inside that folder with one file named index.js file(mandatory) and in the base router localhost:3000, just add /folder/filename and the router will work for every file except index.js file. 
+- E.g.: "http://localhost:3000/about/about2"
+- for index.js file, in the base router localhost:3000, just add /foldername and the router will work.
