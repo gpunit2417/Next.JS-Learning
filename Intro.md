@@ -130,3 +130,11 @@ export default function handler(req, res) {
 - Use Link for navigation between pages.
 - Use API routes (if defined) for backend logic.
 - This process ensures modular, efficient, and SEO-friendly navigation.
+
+
+## File-based Routing
+
+**This can be achieved in two ways: -**
+1. In the pages folder, we can create multiple files like blog.js, contact.js, etc. and in the base router localhost:3000, just add /filename and the router will work.
+
+2. In this method, we can create folders like blog, contact, etc. and a file named index.js(no any other name) in these folders. In the base router localhost:3000, just add /filename and the router will work.
