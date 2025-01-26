@@ -147,3 +147,9 @@ export default function handler(req, res) {
 - Creating a folder in pages folder, and creating multiple js files inside that folder with one file named index.js file(mandatory) and in the base router localhost:3000, just add /folder/filename and the router will work for every file except index.js file. 
 - E.g.: "http://localhost:3000/about/about2"
 - for index.js file, in the base router localhost:3000, just add /foldername and the router will work.
+
+
+## Dynamic Routing in NextJS
+**This can be achieved by: -**
+- Creating a [fileName].js file inside the folder you want to have dynamic routing.
+- E.g.: In the about folder, I have created a file named [pageNo].js file
