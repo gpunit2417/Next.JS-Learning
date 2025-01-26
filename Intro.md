@@ -152,4 +152,8 @@ export default function handler(req, res) {
 ## Dynamic Routing in NextJS
 **This can be achieved by: -**
 - Creating a [fileName].js file inside the folder you want to have dynamic routing.
-- E.g.: In the about folder, I have created a file named [pageNo].js file
+- E.g.: In the about folder, I have created a file named [pageNo].js file.
+
+
+## Error Page
+- We can create a custom error page with the file name 404.js as the naming convention.
