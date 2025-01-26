@@ -27,7 +27,19 @@ const blog = ({data}) => {
         {/* <Image src="/practiceImage.webp" layout='fill'/> */}
         {/* <Image src="https://images.pexels.com/photos/257897/pexels-photo-257897.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" height="300" width="500"/> */}
 
-        {data.map((curElem) => {
+        {/* {data.map((curElem) => {
+        return (
+          <div key={curElem.id} className="ssr-styles">
+            <h3>{curElem.id}</h3>
+            <Link href={`/blog/${curElem.id}`}>
+              <h2>{curElem.title}</h2>
+            </Link>
+          </div>
+        );
+      })} */}
+
+
+{data.slice(0, 5).map((curElem) => {
         return (
           <div key={curElem.id} className="ssr-styles">
             <h3>{curElem.id}</h3>
