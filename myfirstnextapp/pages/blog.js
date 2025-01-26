@@ -3,10 +3,11 @@ import React from 'react'
 import Image from 'next/image'
 const blog = () => {
   return (
-    <div>
+    <div style={{textAlign: 'center'}}>
       <Navbar/>
         <h1>Hello from blog.js file</h1>
-        <Image src="/practiceImage.webp" layout='fill'/>
+        {/* <Image src="/practiceImage.webp" layout='fill'/> */}
+        <Image src="https://images.pexels.com/photos/257897/pexels-photo-257897.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" height="300" width="500"/>
     </div>
   )
 }
