@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import Link from "next/link";
 import { useRouter } from "next/router";
+import Navbar from "@/components/Navbar";
 
 const Errorpage = () => {
   const router = useRouter();
@@ -17,35 +17,7 @@ const Errorpage = () => {
 
   return (
     <>
-      <nav>
-        <ul className="menu-bar">
-          <li>
-            <Link href="/" legacyBehavior>
-              <a> Home </a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/about" legacyBehavior>
-              <a> About </a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/contact" legacyBehavior>
-              <a> Contact </a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/blog" legacyBehavior>
-              <a> Blog </a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/product" legacyBehavior>
-              <a> Product </a>
-            </Link>
-          </li>
-        </ul>
-      </nav>
+      <Navbar/>
       <div id="notfound">
         <div className="notfound">
           <div className="notfound-404">
