@@ -157,3 +157,8 @@ export default function handler(req, res) {
 
 ## Error Page
 - We can create a custom error page with the file name 404.js as the naming convention.
+
+
+## Component Level CSS
+- We can create a component level css file with the name: filename.module.css
+- the suffix: module.css after filename is mandatory.
