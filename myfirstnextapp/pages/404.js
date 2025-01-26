@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import Navbar from "@/components/Navbar";
+import Head from "next/head";
 
 const Errorpage = () => {
   const router = useRouter();
@@ -17,6 +18,9 @@ const Errorpage = () => {
 
   return (
     <>
+    <Head>
+      <title>Error Page</title>
+    </Head>
       <Navbar/>
       <div id="notfound">
         <div className="notfound">
